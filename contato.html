@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Unes - Contato </title>
+	<meta charset="utf-8">
+	</head>
+	<!-- Vamos estruturar o site baseado numa tabela, não é o viável (em CSS veremos mais detalhes de como fazer melhor), mas para fins didáticos, usaremos a função <table> , ou seja tabela para estruturar a página-->
+	<body background="arquivos-necessarios-imagens/fundo2.png">
+		<!-- as imagens no back ground se repetem na horizontal e na vertical, por isso é importante utilizar um design pensando nessa imposição-->
+
+	<table border="0" width="900" align="center">
+		<tr>
+			<td align="left" height="89">
+			 	<img src="arquivos-necessarios-imagens/logo.png">
+			</td>
+			<td align="right" height="35">
+				<a href="index.html"> Home| </a>
+				<a href="quem-somos.html"> Quem somos ?| </a>
+				<a href="contato.html"> Contato </a>
+			</td>
+		</tr>
+		<tr >
+			<td colspan="2" align="left">
+				<h1>Entre em Contao</h1>
+				<h2>Teremos enorme satisfação em atendê-lo</h2>
+				<form>
+					<strong>Seu e-mail</strong><br>
+					<input type="text" name="e-mail"><br><br>
+					<strong>Nível de escolaridade:</strong>
+					<input type="radio" name="Nível de escolaridade" value="Fundamental">Fundamental
+					<input type="radio" name="Nível de escolaridade" value="Médio">Médio
+					<input type="radio" name="Nível de escolaridade" value="Superior">Superior <br><br>
+					<strong>Assunto</strong><br>
+					<select name="Assunto">
+						<option value="Sobre os cursos oferecidos">Sobre os cursos oferecidos</option>
+						<option value="Vestibular">Vestibular</option>
+						<option value="Matrícula/Transferência">Matrícula/Transferência</option>
+						<option value="Secretaria">Secretaria</option>
+						<option value="Reitoria">Reitoria</option>
+						<option value="Outros">Outros</option>
+
+
+					</select><br><br>
+
+					<strong>Descrição:</strong><br>
+					<textarea lang="500"></textarea><br>
+					<input type="submit" name="Enviar" value="Enviar">
+
+
+
+					
+
+				</form>
+
+
+
+			</td>
+
+		</tr>
+		<tr >
+			<td colspan="2" align="center">
+				<h5>Todos os Direitos Reservados.</h5>
+				
+			</td>
+		</tr>
+
+	</table>
+</body>
+</html>
